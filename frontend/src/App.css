@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+/* Navbar Styles */
+.navbar {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 7xl;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #3b82f6;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4b5563;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #2563eb;
+}
+
+
+.task-list-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.task-input {
+  width: 80%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-task-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-task-button:hover {
+  background-color: #45a049;
+}
+
+.tasks {
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.update-button,
+.delete-button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.update-button {
+  background-color: #2196F3;
+  color: white;
+}
+
+.update-button:hover {
+  background-color: #0b7dda;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
