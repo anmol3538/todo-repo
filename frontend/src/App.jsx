@@ -5,8 +5,7 @@ import Signup from "./pages/Signup"
 import Login from "./pages/Login"
 import AddTask from "./pages/AddTask";
 import './App.css'
-// Placeholder pages
-const Home = () => <div className="p-4">Home Page</div>;
+import Home from './pages/Home'
 
 function App() {
   return (
